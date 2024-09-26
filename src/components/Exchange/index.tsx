@@ -28,11 +28,6 @@ const customStyles: StylesConfig<IOptionType, false> = {
         '&:hover': {
             borderColor: state.isFocused ? '#4EFFB3' : 'none',
         },
-        // borderColor: 'transparent',
-        // '&:hover': {
-        //     borderColor: 'transparent',
-        // },
-        // color: "chroma.contrast(color, 'white')",
         fontWeight: '500',
         fontSize: '1rem',
         height: '40px',
