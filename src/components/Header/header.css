@@ -8,14 +8,11 @@
     height: 60px;
     border-bottom: 1px solid #fff;
     background-color: #242424;
-
-    &__wrap {
-        display: flex;
-        gap: 20px;
-        &-item {
-            &:hover {
-                color: #fff;
-            }
-        }
-    }
+}
+.header__wrap {
+    display: flex;
+    gap: 20px;
+}
+.header__wrap-item:hover {
+    color: #fff;
 }

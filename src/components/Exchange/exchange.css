@@ -1,0 +1,20 @@
+.exchange {
+    height: calc(100dvh - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.exchange__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.exchange__wrap-swap {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.exchange__wrap-swap:hover {
+    filter: drop-shadow(rgb(78, 255, 179) 0px 1px 4px);
+}
